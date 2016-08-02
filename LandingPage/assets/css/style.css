@@ -1,0 +1,105 @@
+*
+{
+  font-family: 'Open Sans', sans-serif;
+}
+.icon
+{
+      text-align: -webkit-center;
+}
+.topContent{
+  text-align: center;
+  padding-bottom: 30px;
+}
+.topIcons img{
+      height: 140px;
+}
+.topIcons h5
+{
+  font-size: 18px;
+  font-weight: bolder;
+  padding-top: 30px;
+  line-height: 1.3;
+}
+.spacing
+{
+  margin-top: 50px;
+
+}
+.icon img{
+  padding-top: 20px;
+}
+.button
+{
+  text-align: center;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+.buttonstart
+{
+  background-color: #3db2d0;
+  padding: 10px 80px 10px 80px;
+  color: #FFF;
+}
+.main-text
+{
+    position: absolute;
+    top: 20%;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+.col-xs-12
+{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media (max-width:768px)
+{
+  .main-text
+  {
+      position: inherit;
+      top: 0;
+      width: 100%;
+      color: #000;
+  }
+  .navbar-brand
+  {
+
+    width: 30% !important;
+  }
+  .transbox
+    {
+        background-color: aqua !important;
+    }
+
+}
+.transbox
+{
+    background-color:#000000; 
+    padding:10px 10px 10px 10px;
+    color:#FFF; 
+    text-align:center;
+}
+.BannerButtons > a
+{
+  margin-right: 12px;
+}
+.main-navbar
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.navbar-default
+{
+  background-color: transparent;
+  border-color: transparent;
+}
+.navbar-default .navbar-nav>li>a
+{
+  color: #FFF;
+}
+.navbar-brand
+{
+  height: auto;
+  width: 50%;
+}
